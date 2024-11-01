@@ -1,0 +1,12 @@
+{
+	"label": "Caveat",
+	"category": "cursive",
+	"author": "Impallari Type",
+	"fonts": [
+		{
+			"file": "normal.woff2",
+			"weights": [400, 500, 600, 700],
+			"variant": "normal"
+		}
+	]
+}

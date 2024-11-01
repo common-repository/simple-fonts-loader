@@ -1,0 +1,17 @@
+{
+	"label": "Playfair Display",
+	"category": "serif",
+	"author": "Claus Eggers Sørensen",
+	"fonts": [
+		{
+			"file": "italic.woff2",
+			"weights": [400, 500, 600, 700, 800, 900],
+			"variant": "italic"
+		},
+		{
+			"file": "normal.woff2",
+			"weights": [400, 500, 600, 700, 800, 900],
+			"variant": "normal"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"label": "Lora",
+	"category": "serif",
+	"author": [
+		"Cyreal"
+	],
+	"fonts": [
+		{
+			"file": "italic.woff2",
+			"weights": [400, 500, 600, 700],
+			"variant": "italic"
+		},
+		{
+			"file": "normal.woff2",
+			"weights": [400, 500, 600, 700],
+			"variant": "normal"
+		}
+	]
+}

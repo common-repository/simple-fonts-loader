@@ -1,0 +1,17 @@
+{
+	"label": "Open Sans",
+	"category": "sans-serif",
+	"author": "Steve Matteson",
+	"fonts": [
+		{
+			"file": "italic.woff2",
+			"weights": [300, 400, 500, 600, 700, 800],
+			"variant": "italic"
+		},
+		{
+			"file": "normal.woff2",
+			"weights": [300, 400, 500, 600, 700, 800],
+			"variant": "normal"
+		}
+	]
+}

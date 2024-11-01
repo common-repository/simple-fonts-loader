@@ -1,0 +1,21 @@
+{
+	"label": "Raleway",
+	"category": "sans-serif",
+	"author": [
+		"Matt McInerney",
+		"Pablo Impallari",
+		"Rodrigo Fuenzalida"
+	],
+	"fonts": [
+		{
+			"file": "italic.woff2",
+			"weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+			"variant": "italic"
+		},
+		{
+			"file": "normal.woff2",
+			"weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+			"variant": "normal"
+		}
+	]
+}

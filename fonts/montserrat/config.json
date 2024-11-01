@@ -1,0 +1,22 @@
+{
+	"label": "Montserrat",
+	"category": "sans-serif",
+	"author": [
+		"Julieta Ulanovsky",
+		"Sol Matas",
+		"Juan Pablo del Peral",
+		"Jacques Le Bailly"
+	],
+	"fonts": [
+		{
+			"file": "italic.woff2",
+			"weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+			"variant": "italic"
+		},
+		{
+			"file": "normal.woff2",
+			"weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+			"variant": "normal"
+		}
+	]
+}

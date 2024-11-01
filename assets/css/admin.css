@@ -1,0 +1,333 @@
+
+#simple-fonts-loader-settings input[type="checkbox"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	-webkit-tap-highlight-color: transparent;
+
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+	position: relative;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	margin: 0 4px;
+	background: none;
+	box-shadow: none;
+}
+
+#simple-fonts-loader-settings input[type="checkbox"]:focus {
+	box-shadow: none;
+}
+
+#simple-fonts-loader-settings input[type="checkbox"]:after {
+	content: '';
+	font-size: 8px;
+	font-weight: 400;
+	line-height: 18px;
+	text-indent: -14px;
+	color: #ffffff;
+	width: 36px;
+	height: 20px;
+	display: inline-block;
+	background-color: #A0A5AA;
+	-webkit-box-shadow: inset 0 0 0 1px #8d9194;
+	box-shadow: inset 0 0 0 1px #8d9194;
+	border-radius: 72px;
+}
+
+#simple-fonts-loader-settings input[type="checkbox"]:before {
+	content: '';
+	width: 16px;
+	height: 16px;
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	margin: 0;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+
+#simple-fonts-loader-settings input[type="checkbox"]:checked:before {
+	left: 18px;
+	margin: 0;
+	background-color: #ffffff;
+}
+
+#simple-fonts-loader-settings input[type="checkbox"],
+#simple-fonts-loader-settings input[type="checkbox"]:before,
+#simple-fonts-loader-settings input[type="checkbox"]:after,
+#simple-fonts-loader-settings input[type="checkbox"]:checked:before,
+#simple-fonts-loader-settings input[type="checkbox"]:checked:after {
+	transition: ease .15s;
+}
+
+#simple-fonts-loader-settings input[type="checkbox"]:checked:after {
+	content: '';
+	background-color: #0073AA;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: transparent;
+	background-image: none;
+	background: none;
+	padding: 0;
+	margin: 0 0 0 10px;
+	color: #A0A5AA;
+	opacity: 0;
+	max-width: 204px;
+	-webkit-transition: opacity .15s ease-in-out;
+	-o-transition: opacity .15s ease-in-out;
+	transition: opacity .15s ease-in-out;
+}
+
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item:hover > label + code,
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label:hover + code,
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label:focus + code,
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code:hover,
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code:focus {
+	opacity: 1;
+}
+
+#simple-fonts-loader-settings .card {
+	width: 33.33333%;
+	width: -moz-calc(33.3333% - 20px);
+	width: -webkit-calc(33.3333% - 20px);
+	width: -o-calc(33.3333% - 20px);
+	width: calc(33.3333% - 20px);
+	min-width: 480px;
+	max-width: none;
+	margin: 20px 0 0 0;
+}
+
+#simple-fonts-loader-settings .card.loading {
+	pointer-events: none;
+}
+
+#simple-fonts-loader-settings .card.loading:before {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 50%;
+	top: 50%;
+	margin-left: -10px;
+	margin-top: -10px;
+	border-radius: 200%;
+	border: 3px solid #808386;
+	border-top-color: transparent;
+	-webkit-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	transform: rotate(135deg);
+	-webkit-animation: loading 1s infinite cubic-bezier(0.7, 0.2, 0.3, 0.8);
+	-moz-animation: loading 1s infinite cubic-bezier(0.7, 0.2, 0.3, 0.8);
+	-o-animation: loading 1s infinite cubic-bezier(0.7, 0.2, 0.3, 0.8);
+	animation: loading 1s infinite cubic-bezier(0.7, 0.2, 0.3, 0.8);
+}
+
+@-webkit-keyframes loading {
+	0% { -webkit-transform: rotate(135deg); -ms-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
+	100% { -webkit-transform: rotate(495deg); -ms-transform: rotate(495deg); -o-transform: rotate(495deg); transform: rotate(495deg); }
+}
+
+@-moz-keyframes loading {
+	0% { -webkit-transform: rotate(135deg); -ms-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
+	100% { -webkit-transform: rotate(495deg); -ms-transform: rotate(495deg); -o-transform: rotate(495deg); transform: rotate(495deg); }
+}
+
+@-o-keyframes loading {
+	0% { -webkit-transform: rotate(135deg); -ms-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
+	100% { -webkit-transform: rotate(495deg); -ms-transform: rotate(495deg); -o-transform: rotate(495deg); transform: rotate(495deg); }
+}
+
+@keyframes loading {
+	0% { -webkit-transform: rotate(135deg); -ms-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
+	100% { -webkit-transform: rotate(495deg); -ms-transform: rotate(495deg); -o-transform: rotate(495deg); transform: rotate(495deg); }
+}
+
+#simple-fonts-loader-settings .card.loading > * {
+	opacity: .4;
+}
+
+#simple-fonts-loader-settings .card > h2.title {
+	float: left;
+}
+
+#simple-fonts-loader-settings .card > h2.title svg.icon-variable {
+	width: 25px;
+	height: 25px;
+	vertical-align: bottom;
+	margin-right: 10px;
+}
+
+#simple-fonts-loader-settings .card > h2.title svg.icon-variable path {
+	fill: currentColor;
+}
+
+#simple-fonts-loader-settings .card > .infobox {
+	float: right;
+	margin-top: 1.2em;
+}
+
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code > span,
+#simple-fonts-loader-settings .card > h2.title > span {
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 0;
+	cursor: pointer;
+}
+
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code > br ~ span {
+	margin-top: -1.5em;
+	margin-left: 10px;
+}
+
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code > .error_copy,
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code > .success_copy,
+#simple-fonts-loader-settings .card > h2.title .error_copy,
+#simple-fonts-loader-settings .card > h2.title .success_copy {
+	position: relative;
+	display: inline-block;
+	width: 70px;
+	color: #767676;
+	font-size: 13px;
+	line-height: 1;
+	margin-left: 0;
+	top: 6px;
+	opacity: 0;
+	-webkit-transition: top .3s ease-in-out, opacity .3s ease-in-out;
+	-o-transition: top .3s ease-in-out, opacity .3s ease-in-out;
+	transition: top .3s ease-in-out, opacity .3s ease-in-out;
+}
+
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code > .success_copy,
+#simple-fonts-loader-settings .card > h2.title .success_copy {
+	margin-right: -70px;
+}
+
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code > .error_copy.show,
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code > .success_copy.show,
+#simple-fonts-loader-settings .card > h2.title .error_copy.show,
+#simple-fonts-loader-settings .card > h2.title .success_copy.show {
+	top: 0;
+	opacity: 1;
+}
+
+/* Favorites */
+
+#simple-fonts-loader-settings input[type="checkbox"][name="fonts_favorites[]"] {
+	display: none;
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin: 7px 0 0 0;
+	opacity: 0;
+	pointer-events: none;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(0,115,170,.08) 50%, rgba(0,115,170,0) 50%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(0,115,170,.08) 50%, rgba(0,115,170,0) 50%);
+	background: radial-gradient(ellipse at center, rgba(0,115,170,.08) 50%, rgba(0,115,170,0) 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#140073aa', endColorstr='#000073aa',GradientType=1 );
+	background-repeat: no-repeat;
+	-webkit-background-size: 0% 0%;
+	background-size: 0% 0%;
+	background-position: center center;
+	-webkit-transition: all .15s ease-in-out;
+	-o-transition: all .15s ease-in-out;
+	transition: all .15s ease-in-out;
+}
+
+#simple-fonts-loader-settings input[type="checkbox"][name="fonts_favorites[]"]:before {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	z-index: 2;
+	border-radius: 0;
+	background-color: transparent;
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="991px" height="948px" viewBox="0 0 991 948"><path fill="%238B8F94" d="M495.274,66.061l106.612,252.334l14.084,33.331l36.051,3.097l272.969,23.45L717.957,557.642l-27.348,23.692l8.193,35.243l62.037,266.816L526.285,741.937l-30.986-18.688l-30.986,18.688L229.758,883.394l62.036-266.816l8.194-35.242l-27.346-23.692L65.561,378.226l272.969-23.451l36.049-3.097l14.083-33.328L495.274,66.061 M495.275,0c-22.633,0-42.942,13.485-51.729,34.331L333.395,294.995L51.38,319.223c-22.555,1.943-41.642,17.109-48.625,38.636c-6.979,21.516-0.439,44.979,16.646,59.762l213.951,185.368l-64.099,275.69c-3.907,16.799-0.047,34.118,10.593,47.517c10.647,13.407,27.141,21.413,44.119,21.413c10.114,0,20.125-2.807,28.983-8.135l242.351-146.158L737.594,939.44c8.848,5.36,18.895,8.193,29.053,8.193c16.959,0,33.439-7.999,44.086-21.396c10.646-13.4,14.518-30.729,10.613-47.555l-64.102-275.693l213.889-185.307c17.09-14.788,23.627-38.244,16.65-59.755c-6.984-21.536-26.063-36.709-48.621-38.658l-282.006-24.226L547.014,34.356C538.217,13.485,517.908,0,495.275,0L495.275,0z"/></svg>');
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	pointer-events: all;
+}
+
+#simple-fonts-loader-settings input[type="checkbox"][name="fonts_favorites[]"]:after {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,185,0,1) 50%, rgba(255,185,0,0) 50%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,185,0,1) 50%, rgba(255,185,0,0) 50%);
+	background: radial-gradient(ellipse at center, rgba(255,185,0,1) 50%,rgba(255,185,0,0) 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb900', endColorstr='#00ffb900',GradientType=1 );
+	background-repeat: no-repeat;
+	-webkit-background-size: 0% 0%;
+	background-size: 0% 0%;
+	background-position: center center;
+	display: block;
+	z-index: 1;
+	border-radius: 0;
+	border: none;
+	opacity: 1;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: background-size .3s cubic-bezier(.8,0,.2,1);
+	-o-transition: background-size .3s cubic-bezier(.8,0,.2,1);
+	transition: background-size .3s cubic-bezier(.8,0,.2,1);
+	-webkit-clip-path: polygon(20% 92%, 23% 95%, 50% 79%, 77% 95%, 80% 92%, 74% 62%, 98% 40%, 95% 37%, 65% 34%, 52% 5%, 48% 5%, 35% 35%, 3% 38%, 3% 42%, 27% 62%);
+	clip-path: polygon(20% 92%, 23% 95%, 50% 79%, 77% 95%, 80% 92%, 74% 62%, 98% 40%, 95% 37%, 65% 34%, 52% 5%, 48% 5%, 35% 35%, 3% 38%, 3% 42%, 27% 62%);
+}
+
+#simple-fonts-loader-settings input[type="checkbox"][name="fonts_favorites[]"]:checked:before {
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="991px" height="948px" viewBox="0 0 991 948"><path fill="%23EAA200" d="M495.274,66.061l106.612,252.334l14.084,33.331l36.051,3.097l272.969,23.45L717.957,557.642l-27.348,23.692l8.193,35.243l62.037,266.816L526.285,741.937l-30.986-18.688l-30.986,18.688L229.758,883.394l62.036-266.816l8.194-35.242l-27.346-23.692L65.561,378.226l272.969-23.451l36.049-3.097l14.083-33.328L495.274,66.061 M495.275,0c-22.633,0-42.942,13.485-51.729,34.331L333.395,294.995L51.38,319.223c-22.555,1.943-41.642,17.109-48.625,38.636c-6.979,21.516-0.439,44.979,16.646,59.762l213.951,185.368l-64.099,275.69c-3.907,16.799-0.047,34.118,10.593,47.517c10.647,13.407,27.141,21.413,44.119,21.413c10.114,0,20.125-2.807,28.983-8.135l242.351-146.158L737.594,939.44c8.848,5.36,18.895,8.193,29.053,8.193c16.959,0,33.439-7.999,44.086-21.396c10.646-13.4,14.518-30.729,10.613-47.555l-64.102-275.693l213.889-185.307c17.09-14.788,23.627-38.244,16.65-59.755c-6.984-21.536-26.063-36.709-48.621-38.658l-282.006-24.226L547.014,34.356C538.217,13.485,517.908,0,495.275,0L495.275,0z"/></svg>');
+}
+
+#simple-fonts-loader-settings input[type="checkbox"][name="fonts_favorites[]"]:checked:after {
+	-webkit-background-size: 160% 160%;
+	background-size: 160% 160%;
+}
+
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code + input[type="checkbox"][name="fonts_favorites[]"]:checked,
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item:hover > label + code + input[type="checkbox"][name="fonts_favorites[]"],
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label:hover + code + input[type="checkbox"][name="fonts_favorites[]"],
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label:focus + code + input[type="checkbox"][name="fonts_favorites[]"],
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code:hover + input[type="checkbox"][name="fonts_favorites[]"],
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code:focus + input[type="checkbox"][name="fonts_favorites[]"],
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code + input[type="checkbox"][name="fonts_favorites[]"]:hover,
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code + input[type="checkbox"][name="fonts_favorites[]"]:focus {
+	opacity: 1;
+}
+
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code + input[type="checkbox"][name="fonts_favorites[]"]:hover,
+#simple-fonts-loader-settings .card > .inside > .simple-fonts-loader-font-item > label + code + input[type="checkbox"][name="fonts_favorites[]"]:focus {
+	-webkit-background-size: 140% 140%;
+	background-size: 140% 140%;
+}
+
+
+
+
+
+
+
+
+
+
+

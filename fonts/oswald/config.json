@@ -1,0 +1,16 @@
+{
+	"label": "Oswald",
+	"category": "sans-serif",
+	"author": [
+		"Vernon Adams",
+		"Kalapi Gajjar",
+		"Cyreal"
+	],
+	"fonts": [
+		{
+			"file": "normal.woff2",
+			"weights": [200, 300, 400, 500, 600, 700],
+			"variant": "normal"
+		}
+	]
+}

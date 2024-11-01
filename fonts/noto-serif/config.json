@@ -1,0 +1,19 @@
+{
+	"label": "Noto Serif",
+	"category": "serif",
+	"author": [
+		"Google"
+	],
+	"fonts": [
+		{
+			"file": "italic.woff2",
+			"weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+			"variant": "italic"
+		},
+		{
+			"file": "normal.woff2",
+			"weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+			"variant": "normal"
+		}
+	]
+}
